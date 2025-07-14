@@ -1,0 +1,2845 @@
+index.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abenezer Mekonen - Graphics Designer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <h1>Abeniyas</h1>
+            </div>
+            
+            <div class="nav-menu">
+                <a href="#hero" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-bg">
+            <div class="hero-gradient"></div>
+            <div class="floating-shape shape-1"></div>
+            <div class="floating-shape shape-2"></div>
+            <div class="floating-shape shape-3"></div>
+        </div>
+        
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-avatar">
+                    <div class="avatar-ring">
+                        <div class="avatar-inner">
+                            <span>AM</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <h1 class="hero-title">Abenezer Mekonen</h1>
+                
+                <div class="hero-subtitle">
+                    <span id="typewriter"></span>
+                    <span class="cursor">|</span>
+                </div>
+                
+                <p class="hero-description">
+                    Transforming ideas into stunning visual experiences through expert design and creative innovation. 
+                    Specialized in Adobe Creative Suite with 2+ years of professional experience.
+                </p>
+                
+                <div class="hero-buttons">
+                    <button class="btn btn-primary">
+                        <span><i class="fa-solid fa-eye"></i></span>
+                        View My Work
+                        <span class="btn-arrow">→</span>
+                    </button>
+                    <button class="btn btn-secondary">
+                        <span><i class="fa-solid fa-cloud-arrow-down"></i></span>
+                        Download CV
+                    </button>
+                </div>
+                
+                <div class="scroll-indicator">
+                    <div class="scroll-arrow">↓</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Passionate designer crafting exceptional visual experiences</p>
+            </div>
+
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Hello! I'm Alex, a passionate graphics designer with over 8 years of experience in creating 
+                        compelling visual stories. My journey began with a simple love for art and has evolved into 
+                        a professional career focused on helping brands communicate their message through powerful design.
+                    </p>
+                    
+                    <p>
+                        I specialize in Adobe Illustrator and Photoshop, where I create everything from brand identities 
+                        to digital illustrations. My approach combines creative vision with strategic thinking to deliver 
+                        designs that not only look amazing but also achieve business objectives.
+                    </p>
+                    
+                    <p>
+                        When I'm not designing, you can find me exploring new art techniques, traveling for inspiration, 
+                        or mentoring aspiring designers. I believe in continuous learning and staying updated with the 
+                        latest design trends and technologies.
+                    </p>
+
+                    <button class="btn btn-primary">Let's Work Together</button>
+                </div>
+
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <div class="stat-icon"><i class="fa-solid fa-award"></i></div>
+                        <div class="stat-value">500+</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon"><i class="fa-solid fa-user-plus"></i></div>
+                        <div class="stat-value">80+</div>
+                        <div class="stat-label">Happy Clients</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">☕</div>
+                        <div class="stat-value">2,340</div>
+                        <div class="stat-label">Cups of Coffee</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon"><i class="fa-regular fa-clock"></i></div>
+                        <div class="stat-value">2+</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Expertise</h2>
+                <p class="section-subtitle">Mastering the tools and techniques that bring creative visions to life</p>
+            </div>
+
+            <div class="skills-content">
+                <div class="progress">
+                    <div class="technical-skills">
+                        <h3>Technical Proficiency</h3>
+                        <div class="skill-bars">
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span>Adobe Illustrator</span>
+                                    <span>65%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="65"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span>Adobe Photoshop</span>
+                                    <span>70%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="70"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="language">
+                        <h3>Language</h3>
+                        <div class="skill-bars">
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span>Amharic</span>
+                                    <span>Native</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="95"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span>English</span>
+                                    <span>Very good</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="60"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="creative-skills">
+                    <h3>Creative Capabilities</h3>
+                    <div class="skill-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fa-solid fa-compass-drafting"></i></div>
+                            <h4>Design Systems</h4>
+                            <p>Creating cohesive and scalable design frameworks</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fa-solid fa-pen-nib"></i></div>
+                            <h4>Brand Strategy</h4>
+                            <p>Developing strategic brand identity solutions</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fa-regular fa-lightbulb"></i></div>
+                            <h4>Innovation</h4>
+                            <p>Staying ahead with cutting-edge design trends</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon"><i class="fa-solid fa-brain"></i></div>
+                            <h4>Problem Solving</h4>
+                            <p>Finding creative solutions to complex design challenges</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="software-expertise">
+                <h3>Software Expertise</h3>
+                <div class="software-grid">
+                    <div class="software-item">
+                        <span class="software-icon">🎨</span>
+                        <span>Adobe Illustrator</span>
+                    </div>
+                    <div class="software-item">
+                        <span class="software-icon">🖼️</span>
+                        <span>Adobe Photoshop</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Experience & Education</h2>
+                <p class="section-subtitle">A journey of continuous growth and creative excellence</p>
+            </div>
+
+            <div class="experience-content">
+                <div class="experience-timeline">
+                    <h3>Professional Experience</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-header">
+                                    <h4>Senior Graphic Designer</h4>
+                                    <span class="timeline-period">2020 - Present</span>
+                                </div>
+                                <p class="timeline-company">Creative Studios Inc. • New York, NY</p>
+                                <p class="timeline-description">
+                                    Leading design projects for Fortune 500 companies, managing a team of 5 designers, 
+                                    and developing comprehensive brand strategies.
+                                </p>
+                                <ul class="timeline-achievements">
+                                    <li>Increased client satisfaction by 40% through innovative design solutions</li>
+                                    <li>Led rebranding project for major tech company worth $2M</li>
+                                    <li>Mentored 10+ junior designers and interns</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-header">
+                                    <h4>Graphic Designer</h4>
+                                    <span class="timeline-period">2018 - 2020</span>
+                                </div>
+                                <p class="timeline-company">Design Hub Agency • San Francisco, CA</p>
+                                <p class="timeline-description">
+                                    Created visual identities for startups and established brands, specializing in 
+                                    digital and print design solutions.
+                                </p>
+                                <ul class="timeline-achievements">
+                                    <li>Designed logos and brand assets for 50+ clients</li>
+                                    <li>Improved design workflow efficiency by 30%</li>
+                                    <li>Won "Best Brand Identity" award at Design Conference 2019</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-header">
+                                    <h4>Junior Designer</h4>
+                                    <span class="timeline-period">2016 - 2018</span>
+                                </div>
+                                <p class="timeline-company">Pixel Perfect Studio • Los Angeles, CA</p>
+                                <p class="timeline-description">
+                                    Assisted in creating marketing materials, social media graphics, and print designs 
+                                    for various industries.
+                                </p>
+                                <ul class="timeline-achievements">
+                                    <li>Contributed to 100+ successful design projects</li>
+                                    <li>Developed proficiency in Adobe Creative Suite</li>
+                                    <li>Collaborated with cross-functional teams</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="education-section">
+                    <h3>Education & Certifications</h3>
+                    <div class="education-grid">
+                        <div class="education-card">
+                            <div class="education-accent"></div>
+                            <h4>Bachelor of Fine Arts in Graphic Design</h4>
+                            <p class="education-school">Art Institute of California</p>
+                            <div class="education-details">
+                                <span>📍 Los Angeles, CA</span>
+                                <span>📅 2012 - 2016</span>
+                            </div>
+                            <div class="education-honor">Magna Cum Laude</div>
+                        </div>
+                        
+                        <div class="education-card">
+                            <div class="education-accent"></div>
+                            <h4>Certificate in Digital Design</h4>
+                            <p class="education-school">Adobe Certified Expert Program</p>
+                            <div class="education-details">
+                                <span>📍 Online</span>
+                                <span>📅 2017</span>
+                            </div>
+                            <div class="education-honor">Expert Level Certification</div>
+                        </div>
+                    </div>
+
+                    <div class="awards-section">
+                        <h4>Awards & Recognition</h4>
+                        <div class="awards-list">
+                            <div class="award-item">
+                                <div class="award-info">
+                                    <h5>Design Excellence Award</h5>
+                                    <p>Creative Industry Awards</p>
+                                </div>
+                                <span class="award-year">2023</span>
+                            </div>
+                            <div class="award-item">
+                                <div class="award-info">
+                                    <h5>Best Brand Identity</h5>
+                                    <p>Design Conference</p>
+                                </div>
+                                <span class="award-year">2019</span>
+                            </div>
+                            <div class="award-item">
+                                <div class="award-info">
+                                    <h5>Rising Designer</h5>
+                                    <p>Young Creatives Guild</p>
+                                </div>
+                                <span class="award-year">2018</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">A showcase of creative solutions and innovative design work</p>
+            </div>
+
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="branding">Logo</button>
+                <button class="filter-btn" data-filter="illustration">Flyer & Poster</button>
+                <button class="filter-btn" data-filter="print">Business Card</button>
+                <button class="filter-btn" data-filter="ui-ux">Post card</button>
+                <button class="filter-btn" data-filter="poster">Sticker</button>
+                <button class="filter-btn" data-filter="poster">banner</button>
+            </div>
+            
+
+            <div class="projects-grid">
+                <div class="project-card" data-category="branding">
+                    <div class="project-image">
+                        <img src="image/logo/ayche.png" alt="TechFlow Brand Identity">
+                        <div class="project-overlay">
+                            <button class="project-btn"><i class="fa-solid fa-eye"></i></button>
+                            <button class="project-btn">🔗</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header">
+                            <h3>Ayche organics</h3>
+                            <span>2023</span>
+                        </div>
+                        <p>Complete brand identity design for a tech startup including logo, color palette, and brand guidelines.</p>
+                        <div class="project-tools">
+                            <span>Illustrator</span>
+                            <span>Photoshop</span>
+                        </div>
+                        <div class="project-client">Client: Ayche Organics.</div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="illustration">
+                    <div class="project-image">
+                        <img src="image/logo/ethio-buna.png" alt="Digital Art Collection">
+                        <div class="project-overlay">
+                            <button class="project-btn">👁️</button>
+                            <button class="project-btn">🔗</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header">
+                            <h3>Digital Art Collection</h3>
+                            <span>2023</span>
+                        </div>
+                        <p>Series of digital illustrations exploring futuristic themes and modern design aesthetics.</p>
+                        <div class="project-tools">
+                            <span>Illustrator</span>
+                            <span>Photoshop</span>
+                        </div>
+                        <div class="project-client">Client: Personal Project</div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="print">
+                    <div class="project-image">
+                        <img src="image/poster & flyer/Gulele Full Gosple Church3.jpg" alt="Restaurant Menu Design">
+                        <div class="project-overlay">
+                            <button class="project-btn">👁️</button>
+                            <button class="project-btn">🔗</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header">
+                            <h3>Restaurant Menu Design</h3>
+                            <span>2023</span>
+                        </div>
+                        <p>Elegant menu design for upscale restaurant with focus on typography and visual hierarchy.</p>
+                        <div class="project-tools">
+                            <span>InDesign</span>
+                            <span>Illustrator</span>
+                        </div>
+                        <div class="project-client">Client: Gourmet Bistro</div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="ui-ux">
+                    <div class="project-image">
+                        <img src="image/business card/aycheAsset 6xhdpi.png" alt="E-commerce UI Design">
+                        <div class="project-overlay">
+                            <button class="project-btn">👁️</button>
+                            <button class="project-btn">🔗</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header">
+                            <h3>E-commerce UI Design</h3>
+                            <span>2022</span>
+                        </div>
+                        <p>Modern e-commerce interface design with focus on user experience and conversion optimization.</p>
+                        <div class="project-tools">
+                            <span>Figma</span>
+                            <span>Photoshop</span>
+                        </div>
+                        <div class="project-client">Client: ShopEasy</div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="poster">
+                    <div class="project-image">
+                        <img src="image/sticker/aycheAsset 8xhdpi.png" alt="Music Festival Poster">
+                        <div class="project-overlay">
+                            <button class="project-btn">👁️</button>
+                            <button class="project-btn">🔗</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header">
+                            <h3>Music Festival Poster</h3>
+                            <span>2022</span>
+                        </div>
+                        <p>Vibrant poster design for annual music festival capturing the energy and excitement of the event.</p>
+                        <div class="project-tools">
+                            <span>Illustrator</span>
+                            <span>Photoshop</span>
+                        </div>
+                        <div class="project-client">Client: Summer Beats Festival</div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="print">
+                    <div class="project-image">
+                        <img src="https://images.pexels.com/photos/590022/pexels-photo-590022.jpg" alt="Corporate Annual Report">
+                        <div class="project-overlay">
+                            <button class="project-btn">👁️</button>
+                            <button class="project-btn">🔗</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header">
+                            <h3>Corporate Annual Report</h3>
+                            <span>2022</span>
+                        </div>
+                        <p>Professional annual report design with infographics and data visualization elements.</p>
+                        <div class="project-tools">
+                            <span>InDesign</span>
+                            <span>Illustrator</span>
+                        </div>
+                        <div class="project-client">Client: Global Corp</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="projects-cta">
+                <button class="btn btn-primary">
+                    <span>🔗</span>
+                    View All Projects
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Services & Pricing</h2>
+                <p class="section-subtitle">Professional design services tailored to bring your vision to life</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🎨</div>
+                    <h3>Brand Identity Design</h3>
+                    <p>Complete brand identity solutions including logo design, color palettes, typography, and brand guidelines.</p>
+                    <ul class="service-features">
+                        <li>✅ Logo Design</li>
+                        <li>✅ Brand Guidelines</li>
+                        <li>✅ Color Palette</li>
+                        <li>✅ Typography System</li>
+                        <li>✅ Business Cards</li>
+                        <li>✅ Stationery Design</li>
+                    </ul>
+                    <div class="service-footer">
+                        <div class="service-price">Starting at $2,500</div>
+                        <button class="btn btn-primary">Get Quote →</button>
+                    </div>
+                </div>
+
+                <div class="service-card popular">
+                    <div class="popular-badge">Most Popular</div>
+                    <div class="service-icon">🖼️</div>
+                    <h3>Digital Illustration</h3>
+                    <p>Custom digital illustrations for various applications including marketing materials, publications, and digital media.</p>
+                    <ul class="service-features">
+                        <li>✅ Custom Illustrations</li>
+                        <li>✅ Character Design</li>
+                        <li>✅ Icon Sets</li>
+                        <li>✅ Infographics</li>
+                        <li>✅ Digital Art</li>
+                        <li>✅ Vector Graphics</li>
+                    </ul>
+                    <div class="service-footer">
+                        <div class="service-price">Starting at $800</div>
+                        <button class="btn btn-primary">Get Quote →</button>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">📐</div>
+                    <h3>Print Design</h3>
+                    <p>Professional print design services for brochures, flyers, posters, packaging, and other marketing materials.</p>
+                    <ul class="service-features">
+                        <li>✅ Brochure Design</li>
+                        <li>✅ Poster Design</li>
+                        <li>✅ Packaging Design</li>
+                        <li>✅ Menu Design</li>
+                        <li>✅ Annual Reports</li>
+                        <li>✅ Print-Ready Files</li>
+                    </ul>
+                    <div class="service-footer">
+                        <div class="service-price">Starting at $500</div>
+                        <button class="btn btn-primary">Get Quote →</button>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">⚡</div>
+                    <h3>Design Consultation</h3>
+                    <p>Expert design consultation to help improve your existing designs and develop comprehensive design strategies.</p>
+                    <ul class="service-features">
+                        <li>✅ Design Review</li>
+                        <li>✅ Strategy Planning</li>
+                        <li>✅ Creative Direction</li>
+                        <li>✅ Brand Audit</li>
+                        <li>✅ Design Training</li>
+                        <li>✅ Ongoing Support</li>
+                    </ul>
+                    <div class="service-footer">
+                        <div class="service-price">$150/hour</div>
+                        <button class="btn btn-primary">Get Quote →</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="process-section">
+                <h3>My Design Process</h3>
+                <p>A proven methodology that ensures exceptional results and client satisfaction</p>
+                
+                <div class="process-steps">
+                    <div class="process-step">
+                        <div class="step-number">01</div>
+                        <h4>Discovery</h4>
+                        <p>Understanding your vision, goals, and requirements through detailed consultation.</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">02</div>
+                        <h4>Concept</h4>
+                        <p>Developing initial concepts and design directions based on research and insights.</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">03</div>
+                        <h4>Design</h4>
+                        <p>Creating detailed designs with multiple iterations and refinements.</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">04</div>
+                        <h4>Delivery</h4>
+                        <p>Final delivery with all necessary files, formats, and comprehensive documentation.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="services-cta">
+                <div class="cta-card">
+                    <h3>Ready to Start Your Project?</h3>
+                    <p>Let's collaborate to create something amazing. Contact me today for a free consultation and let's discuss how we can bring your vision to life.</p>
+                    <button class="btn btn-primary">Start Your Project</button>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Let's Work Together</h2>
+                <p class="section-subtitle">Ready to bring your creative vision to life? Get in touch and let's create something amazing together.</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-form-section">
+                    <div class="form-header">
+                        <h3>💬 Send Me a Message</h3>
+                    </div>
+                    
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Full Name *</label>
+                                <input type="text" name="name" required placeholder="Your full name">
+                            </div>
+                            <div class="form-group">
+                                <label>Email Address *</label>
+                                <input type="email" name="email" required placeholder="your@email.com">
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Subject</label>
+                                <input type="text" name="subject" placeholder="Project inquiry">
+                            </div>
+                            <div class="form-group">
+                                <label>Service Interested In</label>
+                                <select name="service">
+                                    <option value="brand-identity">Brand Identity</option>
+                                    <option value="digital-illustration">Digital Illustration</option>
+                                    <option value="print-design">Print Design</option>
+                                    <option value="consultation">Design Consultation</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label>Message *</label>
+                            <textarea name="message" required rows="6" placeholder="Tell me about your project..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <span>📤</span>
+                            Send Message
+                        </button>
+                    </form>
+
+                    <div class="form-success" id="formSuccess">
+                        <div class="success-icon">✅</div>
+                        <h4>Message Sent!</h4>
+                        <p>Thank you for reaching out. I'll get back to you within 24 hours.</p>
+                    </div>
+                </div>
+
+                <div class="contact-info-section">
+                    <div class="contact-info">
+                        <h3>Get In Touch</h3>
+                        <div class="contact-items">
+                            <a href="mailto:alex@designmaster.com" class="contact-item">
+                                <div class="contact-icon">📧</div>
+                                <div class="contact-details">
+                                    <span>Email</span>
+                                    <strong>alex@designmaster.com</strong>
+                                </div>
+                            </a>
+                            <a href="tel:+15551234567" class="contact-item">
+                                <div class="contact-icon">📞</div>
+                                <div class="contact-details">
+                                    <span>Phone</span>
+                                    <strong>+251913964514</strong>
+                                </div>
+                            </a>
+                            <div class="contact-item">
+                                <div class="contact-icon">📍</div>
+                                <div class="contact-details">
+                                    <span>Location</span>
+                                    <strong>New York, NY</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <h3>Follow My Work</h3>
+                        <div class="social-grid">
+                            <a href="#" class="social-link behance">Behance</a>
+                            <a href="#" class="social-link dribbble">Dribbble</a>
+                            <a href="#" class="social-link instagram">Telegram</a>
+                            <a href="#" class="social-link linkedin">LinkedIn</a>
+                        </div>
+                    </div>
+
+                    <div class="availability">
+                        <h3>📅 Availability</h3>
+                        <div class="availability-items">
+                            <div class="availability-item">
+                                <span>Response Time:</span>
+                                <strong>Within 24 hours</strong>
+                            </div>
+                            <div class="availability-item">
+                                <span>New Projects:</span>
+                                <strong class="available">Available</strong>
+                            </div>
+                            <div class="availability-item">
+                                <span>Working Hours:</span>
+                                <strong>Mon-Fri, 9AM-6PM EST</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>DesignMaster</h3>
+                    <p>Creating exceptional visual experiences through innovative design and creative excellence. Specialized in Adobe Creative Suite with 8+ years of professional experience.</p>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <div class="footer-nav">
+                        <a href="#about">About</a>
+                        <a href="#skills">Skills</a>
+                        <a href="#projects">Projects</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+
+                <div class="footer-services">
+                    <h4>Services</h4>
+                    <div class="service-list">
+                        <span>Logo</span>
+                        <span>Poster & Flyer</span>
+                        <span>Banner</span>
+                        <span>Sticker</span>
+                        <span>Business card</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    <span>Made with ❤️ by Abenezer Mekonen</span>
+                </div>
+                <div class="footer-actions">
+                    <span>© 2025. All rights reserved.</span>
+                    <button class="scroll-top" id="scrollTop">↑</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+styles.css
+
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+    background-color: #111827;
+    color: #ffffff;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Navigation */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  /* background: rgba(17, 24, 39, 0.8); */
+  backdrop-filter: blur(10px);
+  /* border-bottom: 1px solid rgba(75, 85, 99, 0.3); */
+  transition: all 0.3s ease;
+}
+
+/* Navbar on Scroll */
+.navbar.scrolled {
+  background: #111827;
+  backdrop-filter: none;
+  border-bottom: 1px solid #374151;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Container */
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+}
+
+/* Brand Styling */
+.nav-brand h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, #8b5cf6, #ec4899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Menu Links */
+.nav-menu {
+  display: flex;
+  gap: 2rem;
+}
+
+/* Link Base */
+.nav-link {
+  color: #d1d5db;
+  text-decoration: none;
+  font-weight: 500;
+  position: relative;
+  padding: 0.5rem 0;
+  transition: color 0.3s ease;
+}
+
+/* Animated Underline */
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background: linear-gradient(135deg, #8b5cf6, #ec4899);
+  transition: width 0.3s ease;
+}
+
+/* On Hover / Active */
+.nav-link:hover::after,
+.nav-link.active::after {
+  width: 100%;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #ffffff;
+  background: none;
+  box-shadow: none;
+  transform: none;
+}
+
+/* Toggle (Optional for Mobile) */
+.nav-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 4px;
+}
+
+.nav-toggle span {
+  width: 25px;
+  height: 3px;
+  background: #ffffff;
+  transition: all 0.3s ease;
+}
+
+/* Hero Section */
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-bg {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+}
+
+.hero-gradient {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, rgba(139, 92, 246, 0.1), rgba(236, 72, 153, 0.1), rgba(59, 130, 246, 0.1));
+}
+
+.floating-shape {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(40px);
+    animation: float 6s ease-in-out infinite;
+}
+
+.shape-1 {
+    top: 25%;
+    left: 25%;
+    width: 300px;
+    height: 300px;
+    background: rgba(139, 92, 246, 0.2);
+    animation-delay: 0s;
+}
+
+.shape-2 {
+    bottom: 25%;
+    right: 25%;
+    width: 400px;
+    height: 400px;
+    background: rgba(236, 72, 153, 0.2);
+    animation-delay: 2s;
+}
+
+.shape-3 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 350px;
+    background: rgba(59, 130, 246, 0.2);
+    animation-delay: 4s;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0px) scale(1); }
+    50% { transform: translateY(-20px) scale(1.05); }
+}
+
+.hero-content {
+    text-align: center;
+    position: relative;
+    z-index: 10;
+    animation: fadeInUp 1s ease-out;
+}
+
+.hero-avatar {
+    margin-bottom: 2rem;
+    animation: fadeInUp 1s ease-out 0.2s both;
+}
+
+.avatar-ring {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    background: linear-gradient(135deg, #8b5cf6, #ec4899);
+    border-radius: 50%;
+    padding: 4px;
+    animation: pulse 2s infinite;
+}
+
+.avatar-inner {
+    width: 100%;
+    height: 100%;
+    background: #111827;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.hero-title {
+    font-size: clamp(3rem, 8vw, 5rem);
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+    background: linear-gradient(135deg, #8b5cf6, #ec4899, #f59e0b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: fadeInUp 1s ease-out 0.4s both;
+}
+
+.hero-subtitle {
+    font-size: clamp(1.5rem, 4vw, 2rem);
+    color: #d1d5db;
+    margin-bottom: 2rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    animation: fadeInUp 1s ease-out 0.6s both;
+}
+
+.cursor {
+    color: #8b5cf6;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0%, 50% { opacity: 1; }
+    51%, 100% { opacity: 0; }
+}
+
+.hero-description {
+    font-size: 1.125rem;
+    color: #9ca3af;
+    max-width: 600px;
+    margin: 0 auto 3rem;
+    animation: fadeInUp 1s ease-out 0.8s both;
+}
+
+.hero-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    margin-bottom: 4rem;
+    animation: fadeInUp 1s ease-out 1s both;
+}
+
+.scroll-indicator {
+    animation: fadeInUp 1s ease-out 1.2s both;
+}
+
+.scroll-arrow {
+    font-size: 2rem;
+    color: #8b5cf6;
+    animation: bounce 2s infinite;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.scroll-arrow:hover {
+    color: #ec4899;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+    40% { transform: translateY(-10px); }
+    60% { transform: translateY(-5px); }
+}
+
+/* Buttons */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem 2rem;
+    font-weight: 600;
+    border-radius: 50px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #8b5cf6, #ec4899);
+    color: #ffffff;
+    box-shadow: 0 4px 15px rgba(139, 92, 246, 0.3);
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(139, 92, 246, 0.4);
+}
+
+.btn-secondary {
+    background: transparent;
+    color: #8b5cf6;
+    border: 2px solid #8b5cf6;
+}
+
+.btn-secondary:hover {
+    background: #8b5cf6;
+    color: #ffffff;
+    transform: translateY(-2px);
+}
+
+.btn-arrow {
+    transition: transform 0.3s ease;
+}
+
+.btn:hover .btn-arrow {
+    transform: translateX(4px);
+}
+
+.btn-full {
+    width: 100%;
+    justify-content: center;
+}
+
+/* Section Styles */
+section {
+    padding: 5rem 0;
+    position: relative;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.section-title {
+    font-size: clamp(2.5rem, 6vw, 4rem);
+    font-weight: 800;
+    margin-bottom: 1rem;
+    background: linear-gradient(135deg, #8b5cf6, #ec4899);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.section-subtitle {
+    font-size: 1.25rem;
+    color: #9ca3af;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* About Section */
+.about {
+    background: rgba(31, 41, 55, 0.5);
+}
+
+.about-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+}
+
+.about-text {
+    space-y: 1.5rem;
+}
+
+.about-text p {
+    color: #d1d5db;
+    margin-bottom: 1.5rem;
+    line-height: 1.8;
+}
+
+.about-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.stat-card {
+    background: rgba(17, 24, 39, 0.5);
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    border: 1px solid rgba(75, 85, 99, 0.3);
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+    border-color: #8b5cf6;
+    box-shadow: 0 10px 30px rgba(139, 92, 246, 0.2);
+}
+
+.stat-icon {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.stat-value {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+}
+
+.stat-label {
+    color: #9ca3af;
+    font-size: 0.875rem;
+}
+
+/* Skills Section */
+.skills-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+}
+
+.skills-content .progress{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  /* vertical alignment */
+    gap: 60px;
+}
+
+.skills-content h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 2rem;
+   
+}
+
+.skill-bars {
+    space-y: 1.5rem;
+}
+
+.skill-item {
+    margin-bottom: 1.5rem;
+}
+
+.skill-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    color: #d1d5db;
+    font-weight: 500;
+}
+
+.skill-bar {
+    height: 8px;
+    background: #374151;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.skill-progress {
+    height: 100%;
+    background: linear-gradient(135deg, #8b5cf6, #ec4899);
+    border-radius: 4px;
+    width: 0%;
+    transition: width 1s ease-out;
+}
+
+.skill-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.skill-card {
+    background: rgba(17, 24, 39, 0.5);
+    padding: 1.5rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(75, 85, 99, 0.3);
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+    border-color: #8b5cf6;
+}
+
+.skill-icon {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #8b5cf6; 
+}
+
+.skill-card h4 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+}
+
+.skill-card p {
+    color: #9ca3af;
+    font-size: 0.875rem;
+    line-height: 1.6;
+}
+
+.software-expertise {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.software-expertise h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 2rem;
+}
+
+.software-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.software-item {
+    background: rgba(17, 24, 39, 0.5);
+    padding: 1rem 1.5rem;
+    border-radius: 50px;
+    border: 1px solid rgba(75, 85, 99, 0.3);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+}
+
+.software-item:hover {
+    transform: translateY(-2px);
+    border-color: #8b5cf6;
+}
+
+.software-icon {
+    font-size: 1.25rem;
+}
+
+/* Experience Section */
+.experience {
+    background: rgba(31, 41, 55, 0.5);
+}
+
+.experience-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+}
+
+.experience-content h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 2rem;
+}
+
+.timeline {
+    position: relative;
+    padding-left: 2rem;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: linear-gradient(to bottom, #8b5cf6, #ec4899);
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 3rem;
+}
+
+.timeline-dot {
+    position: absolute;
+    left: -2rem;
+    top: 0;
+    width: 12px;
+    height: 12px;
+    background: linear-gradient(135deg, #8b5cf6, #ec4899);
+    border-radius: 50%;
+    border: 3px solid #111827;
+}
+
+.timeline-content {
+    background: rgba(17, 24, 39, 0.5);
+    padding: 1.5rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(75, 85, 99, 0.3);
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+}
+
+.timeline-content:hover {
+    transform: translateY(-5px);
+    border-color: #8b5cf6;
+}
+
+.timeline-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 0.5rem;
+}
+
+.timeline-header h4 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.timeline-period {
+    font-size: 0.875rem;
+    color: #9ca3af;
+}
+
+.timeline-company {
+    color: #8b5cf6;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.timeline-description {
+    color: #d1d5db;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.timeline-achievements {
+    list-style: none;
+    space-y: 0.5rem;
+}
+
+.timeline-achievements li {
+    color: #9ca3af;
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+    padding-left: 1rem;
+    position: relative;
+}
+
+.timeline-achievements li::before {
+    content: '•';
+    color: #8b5cf6;
+    position: absolute;
+    left: 0;
+}
+
+.education-grid {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.education-card {
+    background: rgba(17, 24, 39, 0.5);
+    padding: 1.5rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(75, 85, 99, 0.3);
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.education-card:hover {
+    transform: translateY(-5px);
+    border-color: #8b5cf6;
+}
+
+.education-accent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(135deg, #8b5cf6, #ec4899);
+}
+
+.education-card h4 {
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+}
+
+.education-school {
+    color: #8b5cf6;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.education-details {
+    display: flex;
+    justify-content: space-between;
+    color: #9ca3af;
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
+}
+
+.education-honor {
+    background: rgba(34, 197, 94, 0.2);
+    color: #22c55e;
+    padding: 0.25rem 0.75rem;
+    border-radius: 50px;
+    font-size: 0.75rem;
+    display: inline-block;
+}
+
+.awards-section {
+    margin-top: 2rem;
+}
+
+.awards-section h4 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 1.5rem;
+}
+
+.awards-list {
+    space-y: 1rem;
+}
+
+.award-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(31, 41, 55, 0.3);
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.award-info h5 {
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+
+.award-info p {
+    color: #9ca3af;
+    font-size: 0.875rem;
+}
+
+.award-year {
+    color: #8b5cf6;
+    font-weight: 700;
+}
+
+/* Projects Section */
+.project-filters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+
+.filter-btn {
+    padding: 0.75rem 1.5rem;
+    border-radius: 50px;
+    border: 1px solid rgba(75, 85, 99, 0.5);
+    background: rgba(17, 24, 39, 0.5);
+    color: #d1d5db;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+    background: linear-gradient(135deg, #8b5cf6, #ec4899);
+    color: #ffffff;
+    border-color: transparent;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(139, 92, 246, 0.3);
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.project-card {
+    background: rgba(17, 24, 39, 0.5);
+    border-radius: 1rem;
+    overflow: hidden;
+    border: 1px solid rgba(75, 85, 99, 0.3);
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    border-color: #8b5cf6;
+    box-shadow: 0 20px 40px rgba(139, 92, 246, 0.2);
+}
+
+.project-image {
+    position: relative;
+    height: 250px;
+    overflow: hidden;
+}
+
+.project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover .project-image img {
+    transform: scale(1.1);
+}
+
+.project-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(17, 24, 39, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.project-card:hover .project-overlay {
+    opacity: 1;
+}
+
+.project-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background: linear-gradient(135deg, #8b5cf6, #ec4899);
+    color: #ffffff;
+    font-size: 1.25rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.project-btn:hover {
+    transform: scale(1.1);
+}
+
+.project-info {
+    padding: 1.5rem;
+}
+
+.project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
+.project-header h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+.project-card:hover .project-header h3 {
+    color: #8b5cf6;
+}
+
+.project-header span {
+    color: #9ca3af;
+    font-size: 0.875rem;
+}
+
+.project-info p {
+    color: #9ca3af;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.project-tools {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.project-tools span {
+    background: rgba(139, 92, 246, 0.2);
+    color: #8b5cf6;
+    padding: 0.25rem 0.75rem;
+    border-radius: 50px;
+    font-size: 0.75rem;
+}
+
+.project-client {
+    color: #6b7280;
+    font-size: 0.75rem;
+}
+
+.projects-cta {
+    text-align: center;
+}
+
+/* Services Section */
+.services {
+    background: rgba(31, 41, 55, 0.5);
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 4rem;
+}
+
+.service-card {
+    background: rgba(17, 24, 39, 0.5);
+    padding: 2rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(75, 85, 99, 0.3);
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+    position: relative;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    border-color: #8b5cf6;
+    box-shadow: 0 20px 40px rgba(139, 92, 246, 0.2);
+}
+
+.service-card.popular {
+    border-color: #8b5cf6;
+    box-shadow: 0 0 30px rgba(139, 92, 246, 0.3);
+}
+
+.popular-badge {
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: linear-gradient(135deg, #8b5cf6, #ec4899);
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+.service-icon {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.service-card h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+.service-card > p {
+    color: #9ca3af;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+.service-features {
+    list-style: none;
+    margin-bottom: 2rem;
+    space-y: 0.75rem;
+}
+
+.service-features li {
+    color: #d1d5db;
+    font-size: 0.875rem;
+    margin-bottom: 0.75rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.service-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service-price {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.process-section {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.process-section h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+.process-section p {
+    color: #9ca3af;
+    max-width: 600px;
+    margin: 0 auto 3rem;
+}
+
+.process-steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.process-step {
+    text-align: center;
+}
+
+.step-number {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, #8b5cf6, #ec4899);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0 auto 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+.process-step:hover .step-number {
+    transform: scale(1.1);
+}
+
+.process-step h4 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+.process-step p {
+    color: #9ca3af;
+    line-height: 1.6;
+}
+
+.services-cta {
+    text-align: center;
+}
+
+.cta-card {
+    background: linear-gradient(135deg, rgba(139, 92, 246, 0.1), rgba(236, 72, 153, 0.1));
+    padding: 3rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(139, 92, 246, 0.3);
+    backdrop-filter: blur(10px);
+}
+
+.cta-card h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+.cta-card p {
+    color: #d1d5db;
+    max-width: 600px;
+    margin: 0 auto 2rem;
+    line-height: 1.6;
+}
+
+/* Contact Section */
+.contact-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+}
+
+.contact-form-section {
+    background: rgba(17, 24, 39, 0.5);
+    padding: 2rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(75, 85, 99, 0.3);
+    backdrop-filter: blur(10px);
+}
+
+.form-header {
+    margin-bottom: 2rem;
+}
+
+.form-header h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.contact-form {
+    space-y: 1.5rem;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    color: #d1d5db;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    background: #374151;
+    border: 1px solid #4b5563;
+    border-radius: 0.5rem;
+    color: #ffffff;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #8b5cf6;
+    box-shadow: 0 0 0 3px rgba(139, 92, 246, 0.1);
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: #9ca3af;
+}
+
+.form-success {
+    text-align: center;
+    padding: 3rem;
+    display: none;
+}
+
+.form-success.show {
+    display: block;
+}
+
+.success-icon {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.form-success h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+.form-success p {
+    color: #9ca3af;
+}
+
+.contact-info-section {
+    space-y: 2rem;
+}
+
+.contact-info,
+.social-links,
+.availability {
+    background: rgba(17, 24, 39, 0.5);
+    padding: 2rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(75, 85, 99, 0.3);
+    backdrop-filter: blur(10px);
+}
+
+.contact-info h3,
+.social-links h3,
+.availability h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.contact-items {
+    space-y: 1.5rem;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: #d1d5db;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-item:hover {
+    color: #8b5cf6;
+}
+
+.contact-icon {
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(135deg, #8b5cf6, #ec4899);
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    transition: transform 0.3s ease;
+}
+
+.contact-item:hover .contact-icon {
+    transform: scale(1.1);
+}
+
+.contact-details span {
+    display: block;
+    color: #9ca3af;
+    font-size: 0.875rem;
+}
+
+.contact-details strong {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.social-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.social-link {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.social-link:hover {
+    transform: scale(1.05);
+}
+
+.social-link.behance {
+    background: linear-gradient(135deg, #1769ff, #0057ff);
+}
+
+.social-link.dribbble {
+    background: linear-gradient(135deg, #ea4c89, #f082ac);
+}
+
+.social-link.instagram {
+    background: linear-gradient(135deg, #8b5cf6, #ec4899);
+}
+
+.social-link.linkedin {
+    background: linear-gradient(135deg, #0077b5, #00a0dc);
+}
+
+.availability-items {
+    space-y: 1rem;
+}
+
+.availability-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #d1d5db;
+}
+
+.availability-item strong {
+    color: #ffffff;
+}
+
+.availability-item .available {
+    color: #22c55e;
+}
+
+/* Footer */
+.footer {
+    background: #0f172a;
+    border-top: 1px solid rgba(75, 85, 99, 0.3);
+    padding: 3rem 0 1rem;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 3rem;
+    margin-bottom: 2rem;
+}
+
+.footer-brand h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, #8b5cf6, #ec4899);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 1rem;
+}
+
+.footer-brand p {
+    color: #9ca3af;
+    line-height: 1.6;
+}
+
+.footer-links h4,
+.footer-services h4 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.footer-nav a {
+    color: #9ca3af;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-nav a:hover {
+    color: #8b5cf6;
+}
+
+.service-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.service-list span {
+    color: #9ca3af;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(75, 85, 99, 0.3);
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-copyright {
+    color: #9ca3af;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.footer-actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer-actions span {
+    color: #9ca3af;
+    font-size: 0.875rem;
+}
+
+.scroll-top {
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(135deg, #8b5cf6, #ec4899);
+    border: none;
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 1.25rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.scroll-top:hover {
+    transform: scale(1.1);
+}
+
+/* Animations */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav-menu {
+        position: fixed;
+        top: 70px;
+        left: 0;
+        right: 0;
+        background: rgba(17, 24, 39, 0.95);
+        backdrop-filter: blur(10px);
+        flex-direction: column;
+        padding: 2rem;
+        transform: translateY(-100%);
+        transition: transform 0.3s ease;
+        z-index: 999;
+    }
+
+    .nav-menu.active {
+        transform: translateY(0);
+    }
+
+    .nav-toggle {
+        display: flex;
+    }
+
+    .nav-toggle.active span:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+
+    .nav-toggle.active span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .nav-toggle.active span:nth-child(3) {
+        transform: rotate(-45deg) translate(7px, -6px);
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-content,
+    .skills-content,
+    .experience-content,
+    .contact-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .about-stats {
+        grid-template-columns: 1fr;
+    }
+
+    .skill-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .process-steps {
+        grid-template-columns: 1fr;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+
+    .social-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+
+    .software-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .project-filters {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .hero-title {
+        font-size: 2.5rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.25rem;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .btn {
+        padding: 0.75rem 1.5rem;
+        font-size: 0.875rem;
+    }
+
+    .software-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .project-filters {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Utility Classes */
+.hidden {
+    display: none !important;
+}
+
+.visible {
+    display: block !important;
+}
+
+.fade-in {
+    animation: fadeInUp 0.6s ease-out forwards;
+}
+
+.space-y-1 > * + * {
+    margin-top: 0.25rem;
+}
+
+.space-y-2 > * + * {
+    margin-top: 0.5rem;
+}
+
+.space-y-3 > * + * {
+    margin-top: 0.75rem;
+}
+
+.space-y-4 > * + * {
+    margin-top: 1rem;
+}
+
+.space-y-6 > * + * {
+    margin-top: 1.5rem;
+}
+
+script.js
+
+// Navigation functionality
+document.addEventListener('DOMContentLoaded', function() {
+    const navToggle = document.querySelector('.nav-toggle');
+    const navMenu = document.querySelector('.nav-menu');
+    const navLinks = document.querySelectorAll('.nav-link');
+
+    // Mobile menu toggle
+    navToggle.addEventListener('click', function() {
+        navToggle.classList.toggle('active');
+        navMenu.classList.toggle('active');
+    });
+
+    // Close mobile menu when clicking on a link
+    navLinks.forEach(link => {
+        link.addEventListener('click', function() {
+            navToggle.classList.remove('active');
+            navMenu.classList.remove('active');
+        });
+    });
+
+    // Smooth scrolling for navigation links
+    navLinks.forEach(link => {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+            const targetId = this.getAttribute('href');
+            const targetSection = document.querySelector(targetId);
+            
+            if (targetSection) {
+                targetSection.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }
+        });
+    });
+
+    // Active navigation link highlighting
+    function updateActiveNavLink() {
+        const sections = document.querySelectorAll('section');
+        const scrollPosition = window.scrollY + 100;
+
+        sections.forEach(section => {
+            const sectionTop = section.offsetTop;
+            const sectionHeight = section.offsetHeight;
+            const sectionId = section.getAttribute('id');
+            const navLink = document.querySelector(`.nav-link[href="#${sectionId}"]`);
+
+            if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+                navLinks.forEach(link => link.classList.remove('active'));
+                if (navLink) {
+                    navLink.classList.add('active');
+                }
+            }
+        });
+    }
+
+    window.addEventListener('scroll', updateActiveNavLink);
+
+    // Typewriter effect for hero section
+    const typewriterElement = document.getElementById('typewriter');
+    const texts = ['Adobe Illustrator Expert', 'Photoshop Master', 'Brand Designer'];
+    let currentTextIndex = 0;
+    let currentCharIndex = 0;
+    let isDeleting = false;
+
+    function typeWriter() {
+        const currentText = texts[currentTextIndex];
+        
+        if (isDeleting) {
+            typewriterElement.textContent = currentText.substring(0, currentCharIndex - 1);
+            currentCharIndex--;
+        } else {
+            typewriterElement.textContent = currentText.substring(0, currentCharIndex + 1);
+            currentCharIndex++;
+        }
+
+        let typeSpeed = isDeleting ? 100 : 150;
+
+        if (!isDeleting && currentCharIndex === currentText.length) {
+            typeSpeed = 2000;
+            isDeleting = true;
+        } else if (isDeleting && currentCharIndex === 0) {
+            isDeleting = false;
+            currentTextIndex = (currentTextIndex + 1) % texts.length;
+            typeSpeed = 500;
+        }
+
+        setTimeout(typeWriter, typeSpeed);
+    }
+
+    typeWriter();
+
+    // Scroll indicator click
+    const scrollIndicator = document.querySelector('.scroll-indicator');
+    if (scrollIndicator) {
+        scrollIndicator.addEventListener('click', function() {
+            const aboutSection = document.getElementById('about');
+            if (aboutSection) {
+                aboutSection.scrollIntoView({ behavior: 'smooth' });
+            }
+        });
+    }
+
+    // Skills animation on scroll
+    const skillBars = document.querySelectorAll('.skill-progress');
+    const skillsSection = document.getElementById('skills');
+
+    function animateSkillBars() {
+        const skillsSectionTop = skillsSection.offsetTop;
+        const skillsSectionHeight = skillsSection.offsetHeight;
+        const scrollPosition = window.scrollY + window.innerHeight;
+
+        if (scrollPosition > skillsSectionTop + skillsSectionHeight / 3) {
+            skillBars.forEach((bar, index) => {
+                setTimeout(() => {
+                    const width = bar.getAttribute('data-width');
+                    bar.style.width = width + '%';
+                }, index * 200);
+            });
+        }
+    }
+
+    window.addEventListener('scroll', animateSkillBars);
+
+    // Project filtering
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const projectCards = document.querySelectorAll('.project-card');
+
+    filterButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            const filter = this.getAttribute('data-filter');
+            
+            // Update active filter button
+            filterButtons.forEach(btn => btn.classList.remove('active'));
+            this.classList.add('active');
+
+            // Filter projects
+            projectCards.forEach(card => {
+                const category = card.getAttribute('data-category');
+                
+                if (filter === 'all' || category === filter) {
+                    card.style.display = 'block';
+                    card.style.animation = 'fadeInUp 0.6s ease-out forwards';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        });
+    });
+
+    // Contact form handling
+    const contactForm = document.getElementById('contactForm');
+    const formSuccess = document.getElementById('formSuccess');
+
+    if (contactForm) {
+        contactForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Simulate form submission
+            contactForm.style.display = 'none';
+            formSuccess.classList.add('show');
+            
+            // Reset form after 3 seconds
+            setTimeout(() => {
+                contactForm.style.display = 'block';
+                formSuccess.classList.remove('show');
+                contactForm.reset();
+            }, 3000);
+        });
+    }
+
+    // Scroll to top functionality
+    const scrollTopButton = document.getElementById('scrollTop');
+    
+    if (scrollTopButton) {
+        scrollTopButton.addEventListener('click', function() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    }
+
+    // Show/hide scroll to top button
+    window.addEventListener('scroll', function() {
+        if (scrollTopButton) {
+            if (window.scrollY > 500) {
+                scrollTopButton.style.opacity = '1';
+                scrollTopButton.style.visibility = 'visible';
+            } else {
+                scrollTopButton.style.opacity = '0';
+                scrollTopButton.style.visibility = 'hidden';
+            }
+        }
+    });
+
+    // Intersection Observer for animations
+    const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
+    };
+
+    const observer = new IntersectionObserver(function(entries) {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('fade-in');
+            }
+        });
+    }, observerOptions);
+
+    // Observe elements for animation
+    const animateElements = document.querySelectorAll('.stat-card, .skill-card, .timeline-item, .education-card, .project-card, .service-card, .process-step');
+    animateElements.forEach(element => {
+        observer.observe(element);
+    });
+
+    // Parallax effect for floating shapes
+    window.addEventListener('scroll', function() {
+        const scrolled = window.pageYOffset;
+        const shapes = document.querySelectorAll('.floating-shape');
+        
+        shapes.forEach((shape, index) => {
+            const speed = 0.5 + (index * 0.1);
+            const yPos = -(scrolled * speed);
+            shape.style.transform = `translateY(${yPos}px)`;
+        });
+    });
+
+    // Navbar background on scroll
+    const navbar = document.querySelector('.navbar');
+    
+    window.addEventListener('scroll', function() {
+        if (window.scrollY > 50) {
+            navbar.style.background = 'rgba(17, 24, 39, 0.95)';
+        } else {
+            navbar.style.background = 'rgba(17, 24, 39, 0.8)';
+        }
+    });
+
+    // Button hover effects
+    const buttons = document.querySelectorAll('.btn');
+    
+    buttons.forEach(button => {
+        button.addEventListener('mouseenter', function() {
+            this.style.transform = 'translateY(-2px)';
+        });
+        
+        button.addEventListener('mouseleave', function() {
+            this.style.transform = 'translateY(0)';
+        });
+    });
+
+    // Card hover effects
+    const cards = document.querySelectorAll('.stat-card, .skill-card, .service-card, .project-card');
+    
+    cards.forEach(card => {
+        card.addEventListener('mouseenter', function() {
+            this.style.transform = 'translateY(-10px)';
+        });
+        
+        card.addEventListener('mouseleave', function() {
+            this.style.transform = 'translateY(0)';
+        });
+    });
+
+    // // Loading animation for images
+    // const images = document.querySelectorAll('img');
+    
+    // images.forEach(img => {
+    //     img.addEventListener('load', function() {
+    //         this.style.opacity = '1';
+    //     });
+        
+    //     // Set initial opacity
+    //     img.style.opacity = '0';
+    //     img.style.transition = 'opacity 0.3s ease';
+    // });
+
+    // // Initialize animations
+    // setTimeout(() => {
+    //     document.body.classList.add('loaded');
+    // }, 100);
+});
+
+window.addEventListener('scroll', function () {
+    const navbar = document.querySelector('.navbar');
+    if (window.scrollY > 50) {
+      navbar.classList.add('scrolled');
+    } else {
+      navbar.classList.remove('scrolled');
+    }
+});
+
+// Utility functions
+function debounce(func, wait) {
+    let timeout;
+    return function executedFunction(...args) {
+        const later = () => {
+            clearTimeout(timeout);
+            func(...args);
+        };
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+    };
+}
+
+// Smooth reveal animations
+function revealOnScroll() {
+    const reveals = document.querySelectorAll('.reveal');
+    
+    reveals.forEach(element => {
+        const windowHeight = window.innerHeight;
+        const elementTop = element.getBoundingClientRect().top;
+        const elementVisible = 150;
+        
+        if (elementTop < windowHeight - elementVisible) {
+            element.classList.add('active');
+        }
+    });
+}
+
+window.addEventListener('scroll', debounce(revealOnScroll, 10));
+
+// Performance optimization
+function optimizePerformance() {
+    // Lazy loading for images
+    if ('IntersectionObserver' in window) {
+        const imageObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const img = entry.target;
+                    img.src = img.dataset.src;
+                    img.classList.remove('lazy');
+                    imageObserver.unobserve(img);
+                }
+            });
+        });
+
+        const lazyImages = document.querySelectorAll('img[data-src]');
+        lazyImages.forEach(img => imageObserver.observe(img));
+    }
+}
+
+// Initialize performance optimizations
+document.addEventListener('DOMContentLoaded', optimizePerformance);
+
+// Error handling
+window.addEventListener('error', function(e) {
+    console.error('An error occurred:', e.error);
+});
+
+// Accessibility improvements
+document.addEventListener('keydown', function(e) {
+    // Skip to main content with Tab key
+    if (e.key === 'Tab' && !e.shiftKey) {
+        const focusableElements = document.querySelectorAll(
+            'a[href], button, textarea, input[type="text"], input[type="radio"], input[type="checkbox"], select'
+        );
+        
+        // Add focus indicators
+        focusableElements.forEach(element => {
+            element.addEventListener('focus', function() {
+                this.style.outline = '2px solid #8b5cf6';
+                this.style.outlineOffset = '2px';
+            });
+            
+            element.addEventListener('blur', function() {
+                this.style.outline = 'none';
+            });
+        });
+    }
+});
+
+// Preload critical resources
+function preloadResources() {
+    const criticalImages = [
+        'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg',
+        'https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg'
+    ];
+    
+    criticalImages.forEach(src => {
+        const link = document.createElement('link');
+        link.rel = 'preload';
+        link.as = 'image';
+        link.href = src;
+        document.head.appendChild(link);
+    });
+}
+
+// Initialize preloading
+document.addEventListener('DOMContentLoaded', preloadResources);
